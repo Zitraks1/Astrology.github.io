@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  }
+  *,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  :focus,:active{outline: none;}
+  a:focus,a:active{outline: none;}
+
+  nav, footer,header,aside{display: block;}
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@700&display=swap');
+
+body{
+  background: linear-gradient(to bottom right, #000110 20%, #660044 100%);
+}
+.intro{
+  max-height: 100vh;
+  overflow: hidden;
+  border-radius: 3%;
+
+}
+.v0{
+  position: relative;
+  padding-bottom: 56.25%;
+}
+.v1{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.intro_text{
+  position: absolute;
+  top: 30vh;
+  left: 50vh;
+  z-index: 1;
+  font-size: 40px;
+  color: ;
+}
+h1 {
+  font-family: 'Cormorant Unicase', serif;
+  font-size: 10vmax;
+  background-color: #2AA5A0;
+  background-image: linear-gradient(90deg, #170569, #0a736f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ }
+p{
+  font-weight: 10px;
+  font-family: 'Cormorant Unicase', serif;
+  font-size: 2vmax;
+  background-color: #2AA5A0;
+  background-image: linear-gradient(90deg, #593be3, #47b5b1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   z-index: 1;
+   padding: 20px 40px;
+}
